@@ -1,0 +1,56 @@
+body {
+    background-color: skyblue;
+}
+
+.title {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+.quote1 {
+    color: white;
+    text-align: center;
+}
+
+.citation1 {
+    color: white;
+    text-align: center;
+}
+
+ul {
+    margin: 0 auto;
+    width: 500px;
+}
+.list {
+    font-size: 22px;
+    list-style: none;
+    margin-bottom: 30px;
+    
+}
+
+.footer_quote {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.other_list {
+    list-style: none;
+    text-align: center;
+}
+
+:root {
+    --title-hover-background-color: black;
+
+}
