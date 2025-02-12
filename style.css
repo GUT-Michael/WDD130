@@ -4,10 +4,16 @@
 
 }
 
+#content a {
+    
+    color: white;
+}
+
 nav a {
     text-align: center;
     color: aliceblue;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -16,12 +22,15 @@ nav a {
     
 }
 
-#hero_mdg h4 {
+#hero_msg h4 {
     text-align: center;
     
 
 }
 
+#memories {
+    text-align: center;
+}
 
 .button-box {
     text-align: center;
@@ -35,14 +44,19 @@ main section {
 
 }
 
+
 body {
     background-color: #264653;
-    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 
 }
 
 header {
-    background-color: #e76f51;
+    ;
 }
 
 nav a:hover {
@@ -55,27 +69,33 @@ nav a:hover {
     background-color: #264653;
     color: #e76f51;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 
 }
 
 .join {
-    background-color: #264653;
+    background-color: #e9c46a;
     color: #e76f51;
     text-decoration: none;
-
-
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
     background-color: aliceblue;
-    color: aliceblue;
+    color: #264653;
 
 }
 
 .join:hover {
-    background-color: #264653;
-    color: aliceblue;
+    background-color: aliceblue;
+    color: #264653;
 
 }
 
@@ -86,23 +106,29 @@ nav a:hover {
 
 .msg {
     background-color: #264653;
+    line-height: 1.5em;
+    padding: 35px;
+
 }
 
 footer {
     background-color: #264653;
     color: aliceblue;
+    padding: 25px 50px;
+    margin-top: 200px;
 
 }
 
 .home-title {
-    color: #264653;
-
-
+    color: #e76f51;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color: #e76f51;
-
+    
 
 }
 
@@ -114,7 +140,8 @@ h4 {
 
 .msg p {
     color: #e76f51;
-
+    font-size: .8 em;
+    padding-bottom: 15px;
 
 }
 
@@ -132,12 +159,17 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 
 }
 
 .logo {
     width: 80px;
 
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #hero-img {
@@ -156,7 +188,34 @@ footer p a:hover {
 
 }
 
+h2 {
+    margin: 0;
 
+}
 
+footer .social img {
+    padding-top: 15px;
 
+}
 
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px;
+
+}
+
+main section img {
+    box-sizing:border-box;
+}
