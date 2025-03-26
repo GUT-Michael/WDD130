@@ -288,7 +288,51 @@ nav {
     box-shadow: 5px 5px 10px #6f7364;
 
 }
-@media screen and (max-width)
+
+
+
+/* content for river page */
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+
+}
+
+.river1 {
+    grid-row: 0/1;
+    grid-column: 2/3;
+}
+
+
+.river1 p {
+    grid-row: 0/1;
+    grid-column: 1/2;
+    border: #d9c2a3 solid 3px;
+    
+   
+}
+
+.river2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.river2 p {
+    border: #d9c2a3 solid 3px;
+}
+
+.river3 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    
+}
+
+.river3 p {
+    border: #d9c2a3 solid 3px;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
