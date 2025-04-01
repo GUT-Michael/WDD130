@@ -3,12 +3,26 @@
     grid-template-rows: ;
 }
 
-
-.logo {
-    width: 100px
-}
-
 .hero-img {
     width: 60%;
     
+}
+
+header {
+    display: grid;
+    grid-template-columns: 100px 50px 50px 50px 1fr;
+
+}
+
+.logo {
+    width: 100px;
+    grid-column: 0/1;
+}
+
+#home {
+    grid-column: 1/2;
+}
+
+#build1 {
+    grid-column: 2/3;
 }
