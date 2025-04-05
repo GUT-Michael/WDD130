@@ -1,86 +1,156 @@
-* {
-    box-sizing: border-box;
-  }
+
+body {
+  background-color: #330909;
+  color: #FEF5EF;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+header {
+  display: grid;
+  grid-template-columns: 120px 4fr;
+  grid-template-rows: 35px 35px 35px;
+  background-color: #330909;
+}
+
+.logo {
+  width: 100px;
+  grid-column: 1/2;
+}
+
+nav a {
+  text-align: center;
+  padding: 100px;
+  background-color: ;
+  color: #FEF5EF;
+  grid-column: ;
+  grid-row: 3;
+
+}
+
+nav a:hover {
+  background-color: #A20A0A;
+  color: #AEB1B6;
+}
+
+#blurb h1 {
+  text-align: center;
+  border-style: solid;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+#blurb p {
+  margin-left: 200px;
+  margin-right: 200px;
   
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    position: relative;
-  }
+  font-size: 24px;
+}
+
+#lr-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#mr-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#lr p {
+  margin-left: 200px;
+  margin-right: 200px;
   
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
+  font-size: 24px;
+}
+
+#mr p {
+  margin-left: 200px;
+  margin-right: 200px;
   
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
+  font-size: 24px;
+}
+
+#cr p {
+  margin-left: 200px;
+  margin-right: 200px;
   
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
+  font-size: 24px;
+}
+
+
+#cr-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+#lr h1 {
+  text-align: center;
+  border-style: solid;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+#mr h1 {
+  text-align: center;
+  border-style: solid;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+#cr h1 {
+  text-align: center;
+  border-style: solid;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 150px;
   
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
+}
+
+
+
+#lr img {
+  width: 250px;
+  padding: 25px;
+
+
+}
+
+#mr img {
+  width: 250px;
+  padding: 25px;
+}
+
+#cr img {
+  width: 250px;
+  padding: 25px;
+
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows:;
+  margin-top: 100px;
+
+
+}
+
+footer p {
+  text-align: center;
+  grid-row: ;
+  grid-column: 2;
+}
+
+
+
+
+
+

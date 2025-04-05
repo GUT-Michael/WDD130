@@ -1,3 +1,45 @@
+
+header {
+    display: grid;
+    grid-template-columns: 120px 4fr;
+    grid-template-rows: 35px 35px 35px;
+    background-color: #330909;
+  }
+  
+  .logo {
+    width: 100px;
+    grid-column: 1/2;
+  }
+  
+  nav a {
+    text-align: center;
+    padding: 100px;
+    background-color: ;
+    color: #FEF5EF;
+    grid-column: ;
+    grid-row: 3;
+  
+  }
+  
+  nav a:hover {
+    background-color: #A20A0A;
+    color: #AEB1B6;
+  }
+
+  body {
+    background-color: #330909;
+    color: #FEF5EF;
+
+  }
+
+
+
+
+
+
+
+
+
 #hero {
     grid-template-columns: 1fr;
     grid-template-rows: ;
@@ -5,14 +47,15 @@
 
 .hero-img {
     width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 150px;
     
 }
 
-header {
-    display: grid;
-    grid-template-columns: 100px 50px 50px 50px 1fr;
 
-}
+
+
 
 .logo {
     width: 100px;
@@ -23,6 +66,33 @@ header {
     grid-column: 1/2;
 }
 
-#build1 {
-    grid-column: 2/3;
+h1 {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
+#hero p {
+    font-size: 20px;
+    border: solid;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows:;
+  
+  
+  }
+  
+  footer p {
+    text-align: center;
+    grid-row: ;
+    grid-column: 2;
+    font-size: 20px;
+  }
